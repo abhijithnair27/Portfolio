@@ -1,0 +1,74 @@
+.contact {
+    align-items: center;
+}
+
+.h {
+    text-align: center;
+    background-color: #2F4F4F;
+    font-size: 2rem;
+
+}
+
+
+
+.work {
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #33ccff;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.inform {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 70px;
+    margin-left: 35%;
+
+
+    * {
+        box-sizing: border-box;
+    }
+
+    input[type=text],
+    textarea {
+        width: 50%;
+        border-radius: 3px;
+        padding: 50px;
+        border: 1px solid #ccc;
+        resize: vertical;
+    }
+
+    input[type=email],
+    select {
+        width: 50%;
+        border-radius: 3px;
+        padding: 50px;
+        border: 1px solid #ccc;
+        resize: vertical;
+    }
+
+    button[type=submit] {
+        margin-top: 70px;
+        background: none;
+        color: white;
+        padding: 25px 42px;
+        border-radius: 3px;
+        cursor: pointer;
+        border: 5px solid white;
+
+    }
+
+    button[type=submit]:hover {
+        background-color: rgb(8, 3, 44);
+        ;
+    }
+
+    .email {
+        margin-top: 10px;
+    }
+
+    .message {
+        margin-top: 10px;
+    }
+}

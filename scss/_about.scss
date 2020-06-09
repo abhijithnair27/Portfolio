@@ -1,0 +1,191 @@
+.asd {
+    display: flex;
+}
+
+.underline {
+    border-bottom: 3px solid;
+    padding: 4px;
+}
+
+.speed {
+    width: 10px;
+
+}
+
+.fast {
+    color: rgb(59, 53, 57);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fasttext {
+    color: rgb(59, 53, 57);
+    text-align: center;
+    font-size: 28px;
+    width: 13em;
+    word-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dynamic {
+    width: 10px;
+}
+
+.dyn {
+    color: rgb(59, 53, 57);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dyntext {
+    color: rgb(59, 53, 57);
+    text-align: center;
+    font-size: 28px;
+    width: 13em;
+    word-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.respond {
+    width: 10px;
+
+}
+
+.resp {
+    color: rgb(59, 53, 57);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resptext {
+    color: rgb(59, 53, 57);
+    text-align: center;
+    font-size: 28px;
+    width: 13em;
+    word-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.easy {
+    width: 10px;
+
+}
+
+.e {
+
+    color: rgb(59, 53, 57);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.etext {
+    color: rgb(59, 53, 57);
+    text-align: center;
+    font-size: 28px;
+    width: 13em;
+    word-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hex {
+    margin-top: 800px;
+}
+
+.hexagon {
+    position: relative;
+    width: 380px;
+    height: 219.39px;
+    margin: 109.70px 0;
+    background-image: url(https://bhanukushwah.github.io/startupweekendindore/resources/team/krati.jpeg);
+    background-size: auto 438.7862px;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.hexTop,
+.hexBottom {
+    position: absolute;
+    z-index: 1;
+    width: 268.70px;
+    height: 268.70px;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 55.65px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+    content: "";
+    position: absolute;
+    width: 380.0000px;
+    height: 219.3931022920578px;
+    -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-109.6966px);
+    -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-109.6966px);
+    transform: rotate(45deg) scaleY(1.7321) translateY(-109.6966px);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+}
+
+.hexTop {
+    top: -134.3503px;
+}
+
+.hexTop:after {
+    background-position: center top;
+}
+
+.hexBottom {
+    bottom: -134.3503px;
+}
+
+.hexBottom:after {
+    background-position: center bottom;
+}
+
+.hexagon:after {
+    content: "";
+    position: absolute;
+    top: 0.0000px;
+    left: 0;
+    width: 380.0000px;
+    height: 219.3931px;
+    z-index: 2;
+    background: inherit;
+}
+
+.who {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(59, 53, 57);
+    margin-top: -150px;
+
+}
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(59, 53, 57);
+    margin-top: 10px;
+    width: 20em;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+.at {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgb(59, 53, 57);
+
+    width: 35em;
+    word-wrap: break-word;
+    text-align: justify;
+}

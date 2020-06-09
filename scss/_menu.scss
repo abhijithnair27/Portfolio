@@ -1,0 +1,58 @@
+@media screen and (max-width:768px) {
+
+
+
+
+
+    .menu-btn {
+        display: block;
+    }
+
+
+    .menu-btn {
+
+        z-index: 3;
+        align-items: center;
+        cursor: pointer;
+
+
+        .btn-line {
+            width: 28px;
+            height: 3px;
+            margin: 5px;
+            background: #444;
+            transition: 0.6s;
+
+        }
+
+        &.close {
+            transform: rotate(180deg);
+
+            .btn-line {
+                &:nth-child(1) {
+                    transform: rotate(45deg) translate(5px, 5px);
+                }
+
+                &:nth-child(2) {
+                    opacity: 0;
+                }
+
+                &:nth-child(3) {
+                    transform: rotate(-45deg) translate(7px, -6px);
+                }
+            }
+        }
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        opacity: 0.9;
+        visibility: hidden;
+
+        &.show {
+            visibility: visible;
+        }
+    }
+}
