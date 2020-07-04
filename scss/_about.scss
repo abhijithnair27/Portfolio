@@ -1,191 +1,81 @@
-.asd {
-    display: flex;
+.aabout {
+  color: #444;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.underline {
-    border-bottom: 3px solid;
-    padding: 4px;
+.aabout hr {
+  width: 55%;
+  margin: auto;
+  margin-top: 5px;
 }
 
-.speed {
-    width: 10px;
-
+.mid {
+  padding: 50px;
+  text-align: center;
 }
 
-.fast {
-    color: rgb(59, 53, 57);
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+.mid img {
+  border-radius: 20px;
+
+  box-shadow: 0 20px 20px rgba(0, 3, 3, 0.19), 0 20px 20px rgba(0, 0, 0, 0.23);
+  max-width: 100%;
+  height: 50vh;
+  display: block;
+  margin: 0 auto;
 }
 
-.fasttext {
-    color: rgb(59, 53, 57);
-    text-align: center;
-    font-size: 28px;
-    width: 13em;
-    word-wrap: break-word;
-    font-family: Arial, Helvetica, sans-serif;
+.mid p {
+  padding: 30px;
 }
 
-.dynamic {
-    width: 10px;
+.l-qoute {
+  position: relative;
+  text-align: center;
+  color: #444;
 }
 
-.dyn {
-    color: rgb(59, 53, 57);
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.dyntext {
-    color: rgb(59, 53, 57);
-    text-align: center;
-    font-size: 28px;
-    width: 13em;
-    word-wrap: break-word;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.respond {
-    width: 10px;
-
-}
-
-.resp {
-    color: rgb(59, 53, 57);
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.resptext {
-    color: rgb(59, 53, 57);
-    text-align: center;
-    font-size: 28px;
-    width: 13em;
-    word-wrap: break-word;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.easy {
-    width: 10px;
-
-}
-
-.e {
-
-    color: rgb(59, 53, 57);
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.etext {
-    color: rgb(59, 53, 57);
-    text-align: center;
-    font-size: 28px;
-    width: 13em;
-    word-wrap: break-word;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.hex {
-    margin-top: 800px;
-}
-
-.hexagon {
-    position: relative;
-    width: 380px;
-    height: 219.39px;
-    margin: 109.70px 0;
-    background-image: url(https://bhanukushwah.github.io/startupweekendindore/resources/team/krati.jpeg);
-    background-size: auto 438.7862px;
-    background-position: center;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-}
-
-.hexTop,
-.hexBottom {
-    position: absolute;
-    z-index: 1;
-    width: 268.70px;
-    height: 268.70px;
-    overflow: hidden;
-    -webkit-transform: scaleY(0.5774) rotate(-45deg);
-    -ms-transform: scaleY(0.5774) rotate(-45deg);
-    transform: scaleY(0.5774) rotate(-45deg);
-    background: inherit;
-    left: 55.65px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-}
-
-/*counter transform the bg image on the caps*/
-.hexTop:after,
-.hexBottom:after {
-    content: "";
-    position: absolute;
-    width: 380.0000px;
-    height: 219.3931022920578px;
-    -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-109.6966px);
-    -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-109.6966px);
-    transform: rotate(45deg) scaleY(1.7321) translateY(-109.6966px);
-    -webkit-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    transform-origin: 0 0;
-    background: inherit;
-}
-
-.hexTop {
-    top: -134.3503px;
-}
-
-.hexTop:after {
-    background-position: center top;
-}
-
-.hexBottom {
-    bottom: -134.3503px;
-}
-
-.hexBottom:after {
-    background-position: center bottom;
-}
-
-.hexagon:after {
-    content: "";
-    position: absolute;
-    top: 0.0000px;
-    left: 0;
-    width: 380.0000px;
-    height: 219.3931px;
-    z-index: 2;
-    background: inherit;
-}
-
-.who {
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    color: rgb(59, 53, 57);
-    margin-top: -150px;
-
+.m {
+  display: flex;
 }
 
 .info {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    color: rgb(59, 53, 57);
-    margin-top: 10px;
-    width: 20em;
-    word-wrap: break-word;
-    text-align: center;
+  padding: 80px;
+  border: 5px solid #444;
+
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
 }
 
+.info h2 {
+  top: 0;
+}
 
-.at {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    color: rgb(59, 53, 57);
+.info p {
+  margin-top: 40px;
+}
 
-    width: 35em;
-    word-wrap: break-word;
-    text-align: justify;
+.info ul {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.info:hover {
+  background: #fada24;
+  cursor: pointer;
+}
+
+.right-about {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+}
+
+@media (max-width: 100px) {
 }
