@@ -164,8 +164,87 @@ section {
   height: 60rem; }
 
 .home {
-  height: 100%;
+  height: 100vh;
   margin-bottom: auto; }
+
+a:hover {
+  color: #6ab04c; }
+
+.mai {
+  margin: 0;
+  z-index: -1;
+  height: auto;
+  width: auto;
+  height: 45px;
+  position: relative;
+  overflow: hidden; }
+
+.mai::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: -100%;
+  background: #444;
+  z-index: 1;
+  animation: animatebefore 2s linear infinite;
+  transition: 0.7s linear;
+  transition-delay: 0.2s; }
+
+@keyframes animatebefore {
+  0% {
+    left: -100%;
+    background: #444; }
+  100% {
+    left: 100%; } }
+
+.mai ul {
+  padding: 0;
+  animation: animate 5s linear infinite; }
+
+@keyframes animate {
+  0% {
+    transform: translateY(0px); }
+  30% {
+    transform: translateY(0px); }
+  40% {
+    transform: translateY(-45px); }
+  65% {
+    transform: translateY(-45px); }
+  75%,
+  100% {
+    transform: translateY(-90px); } }
+
+.mai ul li {
+  height: 45px;
+  letter-spacing: 15px; }
+
+.text1 {
+  font-size: 4rem;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  position: relative;
+  animation: text 3s 1;
+  background: black; }
+
+.text2 {
+  font-size: 2rem;
+  color: #6ab04c; }
+
+@keyframes text {
+  0% {
+    color: black;
+    margin-bottom: -80px; }
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: -80px; }
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: -80px; } }
+
+.s {
+  transition: 1s; }
 
 body {
   color: #fff;
@@ -173,9 +252,11 @@ body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
   body#bg-img {
-    background-image: url("../img/bb.jpg");
+    background-image: url("../img/rd-l.jpg");
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
     body#bg-img .overlay {
       position: absolute;
       top: 0;
@@ -197,7 +278,7 @@ h3 {
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
 
@@ -215,13 +296,46 @@ a {
     .home .icons a {
       padding: 0.4rem; }
 
-.btn {
+.middle {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.mouse {
+  width: 40px;
+  height: 60px;
+  border: 3px solid #6ab04c;
+  border-radius: 60px; }
+
+.mouse::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 30px;
+  background: #6ab04c;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 50%;
+  opacity: 1;
+  animation: mouse 2s infinite; }
+
+@keyframes mouse {
+  from {
+    opacity: 1;
+    top: 10px; }
+  to {
+    opacity: 0;
+    top: 50px; } }
+
+.btnn {
   position: relative;
   padding: 20px;
   margin-top: 13%;
-  margin-left: 50%; }
+  margin-left: 45%; }
 
-.button {
+.q {
   background: none;
   color: #ccc;
   width: 240px;
@@ -229,59 +343,17 @@ a {
   border: 1px solid #5f9ea0;
   font-size: 18px;
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  border-radius: 4px;
+  border-radius: 8px;
   transition: 0.6s;
   overflow: hidden;
   transform: translate(-50%, -50%); }
-  .button a {
-    text-align: center; }
 
-.button:focus {
-  outline: none; }
-
-.button:before {
-  content: "";
-  display: block;
-  position: absolute;
-  background: rgba(255, 255, 255, 0.5);
-  width: 60px;
-  height: 100%;
-  left: 0;
-  top: 0;
-  opacity: 0.5s;
-  filter: blur(30px);
-  transform: translateX(-130px) skewX(-150deg); }
-
-.button:after {
-  content: "";
-  display: block;
-  position: absolute;
-  background: rgba(255, 255, 255, 0.2);
-  width: 30px;
-  height: 100%;
-  left: 30px;
-  top: 0;
-  opacity: 0;
-  filter: blur(30px);
-  transform: translateX(-100px) skewX(-150deg); }
-
-.button:hover {
+.q:hover {
   background: #5f9ea0;
   cursor: pointer; }
 
-.button:hover:before {
-  transform: translateX(300px) skewX(-15deg);
-  opacity: 0.6;
-  transition: 0.7s; }
-
-.button:hover:after {
-  transform: translateX(300px) skewX(-15deg);
-  opacity: 1;
-  transition: 0.7s; }
-
 i:hover {
-  color: #5f9ea0;
+  color: #6ab04c;
   transition: all 0.4 ease-out;
   opacity: 1; }
 
