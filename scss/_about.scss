@@ -26,6 +26,7 @@
   height: 50vh;
   display: block;
   margin: 0 auto;
+
 }
 
 .mid p {
@@ -44,11 +45,12 @@
 
 .info {
   padding: 80px;
-  border: 5px solid #444;
-
+  border: 3px solid #444;
+  height: auto;
   border-radius: 10px;
   margin: 20px;
   text-align: center;
+  transition: 0.7s ease;
 }
 
 .info h2 {
@@ -67,6 +69,8 @@
 .info:hover {
   background: #fada24;
   cursor: pointer;
+  letter-spacing: 8px;
+  transform: scale(1.2);
 }
 
 .right-about {
@@ -75,7 +79,7 @@
   flex-direction: column;
   width: 50%;
   height: auto;
+  font-size: 20px;
 }
 
-@media (max-width: 100px) {
-}
+@media (max-width: 100px) {}
