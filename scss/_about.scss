@@ -5,6 +5,7 @@
   padding-bottom: 50px;
   font-size: 2rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 
 .aabout hr {
@@ -49,7 +50,7 @@
   height: auto;
   border-radius: 10px;
   margin: 20px;
-  text-align: center;
+  text-align: justify;
   transition: 0.7s ease;
 }
 
@@ -82,4 +83,8 @@
   font-size: 20px;
 }
 
-@media (max-width: 100px) {}
+@media only screen and (max-width: 768px) {
+  .info {
+    text-align: left;
+  }
+}

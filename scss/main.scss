@@ -50,6 +50,7 @@ section {
 .home {
   height: 100vh;
   margin-bottom: auto;
+  width: 100%;
 
 }
 
@@ -193,14 +194,20 @@ h3 {
 a {
   color: #fff;
   text-decoration: none;
+  
 }
+.info {
+  a{
+    color: black;
+  }
 
+}
 .text-secondary {
   color: $secondary-color;
 }
 
 .home {
-  padding: 4rem;
+  
 
   .icons {
     margin-top: 1rem;
@@ -210,7 +217,9 @@ a {
     }
   }
 }
-
+.space {
+  margin-top: 4rem;
+}
 .middle {
   position: absolute;
   top: 90%;
@@ -291,7 +300,7 @@ i:hover {
   z-index: 1;
   margin-bottom: 0;
   left: 0;
-
+  color: #000;
   border: 1px solid #5f9ea0;
   border-radius: 3px;
   max-width: 100%;
@@ -301,6 +310,9 @@ i:hover {
   align-items: center;
   justify-content: space-around;
   overflow: hidden;
+  .nab {
+    color: black;
+  }
 }
 
 .navvv {
@@ -308,7 +320,7 @@ i:hover {
   z-index: 1;
   margin-bottom: 0;
   left: 0;
-  background-color: #444;
+  background-color: #313638;
   border: 1px solid #5f9ea0;
   border-radius: 3px;
   width: 100%;
@@ -330,7 +342,7 @@ i:hover {
   padding: 10px;
   margin: 0 5% 0 5%;
   font-size: 20px;
-  color: floralwhite;
+  color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   transition: all 0.5 ease-out;
 }
@@ -376,6 +388,7 @@ i:hover {
 
   .navv {
     visibility: visible;
+    
   }
 
 
@@ -383,7 +396,7 @@ i:hover {
   .nav-links {
     width: 100%;
     height: 100vh;
-    background-color: #d7d4ed;
+    background-color: #000;
     position: fixed;
     top: 0;
     right: 0;
@@ -398,6 +411,7 @@ i:hover {
       color: black;
     }
   }
+  
 }
 
 .burger div {
@@ -429,7 +443,7 @@ section.contact {
 .foot {
   text-align: center;
   justify-content: center;
-  background-color: #444;
+  background-color: #313638;
   margin-bottom: 0;
   opacity: 1;
 
@@ -456,9 +470,7 @@ section.contact {
   text-align: center;
 }
 
-.to {
-  background: rgba(lighten($primary-color, 2), 0.5);
-}
+
 
 .load {
   animation: slide 2s;
@@ -480,7 +492,7 @@ section.contact {
 }
 
 .w {
-  background: #0c262c;
+  background: #273E47;
 }
 
 .box {
@@ -574,4 +586,11 @@ section.contact {
   letter-spacing: 8px;
   background: #444;
   color: wheat;
+}
+.colo {
+  color: black;
+}
+
+footer {
+  background-color: #313638;
 }
